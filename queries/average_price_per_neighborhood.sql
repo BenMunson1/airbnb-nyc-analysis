@@ -1,18 +1,20 @@
--- Average price per neighborhood
+-- Average price per neighborhood group
 
-SELECT 
-    neighbourhood_group AS Neighborhood_Group, 
-    neighbourhood AS Neighborhood, 
-    ROUND(AVG(price), 2) AS Average_Price
-FROM 
-    airbnb_listings
-WHERE 
-    price > 0
-GROUP BY 
-    Neighborhood_Group, 
-    Neighborhood
-ORDER BY 
-    Average_Price DESC;
+SELECT
+  neighbourhood_group AS neighborhood_group,
+  ROUND(AVG(price), 2) AS average_price
+FROM
+  airbnb_listings
+GROUP BY
+  neighbourhood_group
+ORDER BY
+  average_price DESC;
 
--- Results:
--- Fort Wadsworth is the most expensive neighborhood on average ($800), followed by Woodrow ($700), and Tribeca ($490.64).
+/*
+Results:
+Manhattan	$196.88
+Brooklyn	$124.38
+Staten Island	$114.81
+Queens	$99.52
+Bronx	$87.5
+*/
