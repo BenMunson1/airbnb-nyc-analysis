@@ -5,7 +5,7 @@ SELECT
 FROM
   airbnb_listings
 GROUP BY 
-    neighbourhood_group
+    borough
 ORDER BY 
     avg_minimum_nights DESC;
 
