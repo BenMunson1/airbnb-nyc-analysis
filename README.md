@@ -7,6 +7,7 @@ This project explores the 2019 Airbnb listings dataset for New York City using *
 ## 📊 Tools Used
 - SQLite Studio
 - SQL (SQLite syntax)
+- Tableau
 - GitHub for version control and hosting
 
 ## 📁 Project Structure
