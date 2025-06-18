@@ -6,7 +6,7 @@ SELECT
 FROM 
     airbnb_listings
 GROUP BY
-    neighbourhood_group
+    borough
 ORDER BY
     avg_availability DESC;
 
