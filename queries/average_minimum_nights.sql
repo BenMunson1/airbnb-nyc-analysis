@@ -1,6 +1,6 @@
 -- Shows the average minimum night requirement by borough
 SELECT
-    neighbourhood_group AS neighborhood_group, 
+    neighbourhood_group AS borough, 
     ROUND(AVG(minimum_nights), 2) AS avg_minimum_nights
 FROM
   airbnb_listings
