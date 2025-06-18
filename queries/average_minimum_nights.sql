@@ -1,5 +1,4 @@
--- Shows the average minimum night requirement by neighborhood group
-
+-- Shows the average minimum night requirement by borough
 SELECT
     neighbourhood_group AS neighborhood_group, 
     ROUND(AVG(minimum_nights), 2) AS avg_minimum_nights
