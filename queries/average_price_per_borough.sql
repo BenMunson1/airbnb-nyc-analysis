@@ -1,7 +1,7 @@
--- Average price per neighborhood group
+-- Average price per borough
 
 SELECT
-  neighbourhood_group AS neighborhood_group,
+  neighbourhood_group AS borough,
   ROUND(AVG(price), 2) AS average_price
 FROM
   airbnb_listings
