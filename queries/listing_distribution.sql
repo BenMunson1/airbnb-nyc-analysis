@@ -7,10 +7,10 @@ SELECT
 FROM 
     airbnb_listings
 GROUP BY 
-    neighbourhood_group,
+    borough,
     room_type
 ORDER BY 
-    neighbourhood_group,
+    borough,
     listing_count DESC;
 
 /*
