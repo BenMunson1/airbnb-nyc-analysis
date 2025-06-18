@@ -30,7 +30,7 @@ This project explores the 2019 Airbnb listings dataset for New York City using *
 5. **What is the average minimum night requirement by borough?**  
    _[View query](https://github.com/BenMunson1/airbnb-nyc-analysis/blob/main/queries/average_minimum_nights.sql)_
 
-6. **What is the distribution of listings by room type?**  
+6. **What is the distribution of listings and price by room type?**  
    _[View query](https://github.com/BenMunson1/airbnb-nyc-analysis/blob/main/queries/room_type_avg_price.sql)_
 
 7. **Which borough has the most availability on average (days per year)?**  
