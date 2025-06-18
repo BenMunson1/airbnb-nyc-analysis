@@ -1,7 +1,7 @@
--- Distribution of listings by room type within each neighborhood group
+-- Distribution of listings by room type within each borough
 
 SELECT 
-    neighbourhood_group AS neighborhood_group,
+    neighbourhood_group AS borough,
     room_type,
     COUNT(*) as listing_count
 FROM 
