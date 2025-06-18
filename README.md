@@ -31,10 +31,10 @@ This project explores the 2019 Airbnb listings dataset for New York City using *
    _[View query](https://github.com/BenMunson1/airbnb-nyc-analysis/blob/main/queries/average_minimum_nights.sql)_
 
 6. **What is the distribution of listings by room type?**  
-   _[View query](queries/listings_by_room_type.sql)_
+   _[View query](https://github.com/BenMunson1/airbnb-nyc-analysis/blob/main/queries/room_type_avg_price.sql)_
 
 7. **Which borough has the most availability on average (days per year)?**  
-   _[View query](https://github.com/BenMunson1/airbnb-nyc-analysis/blob/main/queries/avg_avail_by_neighborhood.sql)_
+   _[View query](https://github.com/BenMunson1/airbnb-nyc-analysis/blob/main/queries/avg_avail_by_borough.sql)_
 
 ---
 
