@@ -1,13 +1,12 @@
 -- Top 10 neighborhoods by the amount of listings.
 
 SELECT 
-  neighbourhood AS Neighborhood, COUNT(*) AS NumberOfListings
-FROM 
+  neighbourhood AS neighborhood, COUNT(*) AS num_of_listings
   airbnb_listings
 GROUP BY 
-  Neighborhood
+  neighborhood
 ORDER BY 
-  NumberOfListings DESC
+  num_of_listings DESC
 LIMIT 10;
 
 /*
