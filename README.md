@@ -1,19 +1,19 @@
-# 🏙️ Airbnb NYC 2019 SQL Data Analysis
+# Airbnb NYC 2019 SQL Data Analysis
 
 This project explores the 2019 Airbnb listings dataset for New York City using **SQL** for data analysis and **Tableau** for data visualization. The goal is to gather meaningful insights that could help stakeholders make informed decisions about pricing, location strategy, and customer demand.
 
 ---
 
-## 📊 Tools Used
+## Tools Used
 - SQLite Studio
 - SQL (SQLite syntax)
 - Tableau
 - GitHub for version control and hosting
 
-## 📁 Project Structure
+## Project Structure
 - `/queries/`: Contains individual `.sql` files, one per business question
 
-## ❓ Business Questions & Insights
+## Business Questions & Insights
 
 1. **Who are the top 10 most active Airbnb hosts in NYC?**  
    _[View query](https://github.com/BenMunson1/airbnb-nyc-analysis/blob/main/queries/top_hosts.sql)_
@@ -38,13 +38,13 @@ This project explores the 2019 Airbnb listings dataset for New York City using *
 
 ---
 
-## 📈 Tableau Dashboard
+## Tableau Dashboard
 
 Visual insights based on the SQL analysis:  
-👉 **[Airbnb NYC 2019 Analysis Dashboard](https://public.tableau.com/app/profile/benjamin.munson/viz/AirbnbNYC2019Analysis_17502433522560/AirbnbNYC2019Analysis)**  
+**[Airbnb NYC 2019 Analysis Dashboard](https://public.tableau.com/app/profile/benjamin.munson/viz/AirbnbNYC2019Analysis_17502433522560/AirbnbNYC2019Analysis)**  
 
 
-## 📌 Summary
+## Summary
 
 This analysis demonstrates skills in:
 - Writing efficient SQL queries to gather insights
@@ -52,7 +52,7 @@ This analysis demonstrates skills in:
 - Creating clear and compelling Tableau dashboards
 - Communicating findings in a business-relevant way
 
-## 📦 Dataset Source
+## Dataset Source
 
 - Dataset: [New York City Airbnb Open Data](https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data)
 
